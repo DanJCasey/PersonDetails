@@ -13,6 +13,7 @@ public class Person {
     }
 
     // why is this called a GETTER??
+    //Getter is a method that retrieves and reads the value of a variable
     public String getFirstName() {
         return firstName;
     }
