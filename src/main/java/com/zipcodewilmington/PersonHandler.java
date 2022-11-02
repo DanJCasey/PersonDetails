@@ -65,6 +65,9 @@ public class PersonHandler {
 
     public String forEachLoop() {
         String result = "";
+        for(Person jawnMorgan : personArray) {
+            result += jawnMorgan;
+        }
         // identify array's type
         // identify array's variable-name
 
